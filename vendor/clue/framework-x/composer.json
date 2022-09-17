@@ -1,0 +1,34 @@
+{
+    "name": "clue/framework-x",
+    "description": "Framework X – the simple and fast micro framework for building reactive web applications that run anywhere.",
+    "keywords": ["microframework", "micro", "framework", "web", "http", "event-driven", "async", "ReactPHP"],
+    "homepage": "https://framework-x.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Lück",
+            "email": "christian@clue.engineering"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "nikic/fast-route": "^1.3",
+        "react/async": "^4 || ^3",
+        "react/http": "^1.7",
+        "react/promise": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^7.5",
+        "psr/container": "^2 || ^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrameworkX\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FrameworkX\\Tests\\": "tests/"
+        }
+    }
+}

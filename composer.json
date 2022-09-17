@@ -1,0 +1,42 @@
+{
+    "name": "nahid/framework-x-starter",
+    "type": "project",
+    "description": "A starter project for framework-x",
+    "keywords": [
+        "framework-x",
+        "starter",
+        "boilerplate",
+        "async",
+        "fiber"
+    ],
+    "require": {
+        "clue/framework-x": "dev-main",
+        "hassankhan/config": "dev-develop",
+        "php-di/php-di": "dev-master",
+        "vlucas/phpdotenv": "5.4.x-dev",
+        "react/mysql": "0.5.x-dev",
+        "react/async": "4.x-dev",
+        "spatie/data-transfer-object": "dev-main",
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "6.2.x-dev"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nahid Bin Azhar",
+            "email": "nahid.dns@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Supports\\": "supports/"
+        },
+        "files": [
+            "supports/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
